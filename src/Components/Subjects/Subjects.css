@@ -1,0 +1,74 @@
+ .sub-box
+{
+  color: aliceblue;
+  height:300px;
+  padding: 10px;
+  position: relative;
+  box-sizing: border-box;
+  background: rgba(0, 0, 0, 0.5);
+  border-style: solid;
+  border-width: 8px;
+  margin-top:30px;
+  width: 500px;
+  text-align: center;
+  align-content: center;
+}
+.sub
+{
+  padding-left: 100px;
+}
+.start-icon
+{
+  float:right;
+  margin-top: 100px;;
+}
+  .cl0
+  {
+    float: right;
+  }
+  .cl1
+  {
+    float: left;
+  } 
+  .sub-box i
+  {
+    margin-top: 15px;
+    font-size: 50px;
+  }  
+  .overlay {
+    position: absolute;  
+    color: #f1f1f1; 
+    transition: .5s ease;
+    opacity:0;
+    color: white;
+    align-self: center;
+    text-align: center;
+    font-size: 20px;
+    margin-top: 30px;
+    margin-bottom: 0px;
+    margin-left: 90px;
+    padding: 20px;
+  }
+  
+  .sub-box:hover .overlay {
+    opacity: 1;
+  }
+  @media only screen and (max-width: 800px) 
+{
+    .sub-box
+    {
+      width: 100%;
+    }
+    .cl0
+    {
+      float: left;
+    }
+    .cl1
+    {
+      float: right;
+    }
+    .sub-box .overlay
+    {
+      display: none;
+    }
+}

@@ -1,0 +1,60 @@
+body p
+{
+    color: aliceblue;
+}
+.footer
+{
+    margin-top: 100px;
+}
+.footer li
+{
+    background-color: #7887dd;
+}
+.box-overlay{
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    background-color: #7887dd;
+    opacity: 0.8;
+    text-align: center;
+}
+.navbar 
+{
+    height: 70px;
+    color: aliceblue;
+}
+.fas,.far,.fab
+{
+    font-size: large;
+    padding: 1vw;
+    color: aliceblue;
+}
+.btn {
+    padding: 2px;
+    height: min-content;
+    color: aliceblue;
+}
+.dropdown-menu{
+    padding: 10px;
+    color: aliceblue ;
+    background-color: #7887dd;
+    opacity: 0.8;
+    border: 0px;
+    box-shadow: none;
+}
+.dropdown-item ,.dropdown-header
+{
+    color: aliceblue;
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+@media only screen and (max-width: 800px) 
+{
+    .container
+    {
+        width: 100%;
+        margin-top: 150px;
+    }
+}
